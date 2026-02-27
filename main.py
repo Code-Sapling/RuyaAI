@@ -133,7 +133,7 @@ def main():
         default="models/en_US-lessac-medium.onnx",
         help=(
             "Path to a Piper .onnx voice model file.  "
-            "Download voices from https://github.com/rhasspy/piper/releases  "
+            "Download voices from https://huggingface.co/rhasspy/piper-voices  "
             "Example: en_US-lessac-medium.onnx"
         ),
     )
