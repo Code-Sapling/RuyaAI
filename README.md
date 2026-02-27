@@ -47,9 +47,9 @@ options:
 
 inside the program you can run these on your keyboard:
 
-**Q** - Quit the program
-**P** - Pause the detection  
-**R** - Resume the detection
-**A** - Auto mode ( Generate captions and say it every time and time based on RATE_LIMIT )
-**M** - Manual mode ( Ganerate captions and say it only when you press G )
-**G** - Generate captions and say it in Manual mode
+**Q** - Quit the program<br>
+**P** - Pause the detection<br> 
+**R** - Resume the detection<br>
+**A** - Auto mode ( Generate captions and say it every time and time based on RATE_LIMIT )<br>
+**M** - Manual mode ( Ganerate captions and say it only when you press G )<br>
+**G** - Generate captions and say it in Manual mode<br>
