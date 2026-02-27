@@ -35,7 +35,7 @@ options:
   --camera CAMERA       Camera index
   --model-path MODEL_PATH
                         HuggingFace model ID or local path for BLIP
-  --voice VOICE         Path to a Piper .onnx voice model file. Download voices from https://github.com/rhasspy/piper/releases Example: en_US-lessac-medium.onnx
+  --voice VOICE         Path to a Piper .onnx voice model file. Download voices from https://huggingface.co/rhasspy/piper-voices Example: en_US-lessac-medium.onnx
   --voice-cuda          Run Piper voice inference on CUDA (requires onnxruntime-gpu)
   --rate-limit RATE_LIMIT
                         Seconds between captions in auto mode
