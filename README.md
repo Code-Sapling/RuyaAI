@@ -42,3 +42,14 @@ options:
   --headless            Run without OpenCV window
 
 ```
+
+# Usage
+
+inside the program you can run these on your keyboard:
+
+Q - Quit the program
+P - Pause the detection
+R - Resume the detection
+A - Auto mode ( generate captions and say it every time and time based on RATE_LIMIT )
+M - Manual mode ( ganerate captions and say it only when you press G )
+G - Generate captions and say it in Manual mode
