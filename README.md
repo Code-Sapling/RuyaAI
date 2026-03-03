@@ -2,19 +2,19 @@
 A Simple and high-performance, fully offline Python app for real-time image captioning using BLIP on local GPUs
 
 # Notes
-- If you have a **CUDA** Device/GPU you need to install pytorch before installing the rest libraries with 
+- If you have a **CUDA** Device/GPU you need to install **Pytorch** with **CUDA** first before installing the other libraries and you can install it with:
 ```pip
 pip3 install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu130
 ```
-- The used **Python** Version is **3.13** ( The Defualt version is **3.13** )
+- The used **Python** Version is **3.13** with a **virtualenv** ( The Recommended version of **Python** is **3.13** )
 
 # Installing Libraries
 
-as simple as running 
+Updating **Pip**:
 ```pip
-python.exe -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 ```
-and then 
+and then installing libraries:
 
 ```pip
 pip install -r requirements.txt
@@ -23,13 +23,13 @@ pip install -r requirements.txt
 # Running Code
 
 ```python
-python main.py
+python3 main.py
 ```
 
 ```python
 usage: main.py [-h] [--camera CAMERA] [--model-path MODEL_PATH] [--voice VOICE] [--voice-cuda] [--rate-limit RATE_LIMIT] [--headless]
 
-Offline Real-time Camera Captioning
+RuyaAI: an offline Real-time Camera Captioning ai
 
 options:
   -h, --help            show this help message and exit

@@ -119,7 +119,7 @@ def draw_multiline_text(img, text, x, y, font, scale, color, thickness, max_widt
 
 # --- Main Application ---
 def main():
-    parser = argparse.ArgumentParser(description="Offline Real-time Camera Captioning")
+    parser = argparse.ArgumentParser(description="RuyaAI: an offline Real-time Camera Captioning ai")
     parser.add_argument("--camera", type=int, default=0, help="Camera index")
     parser.add_argument(
         "--model-path",
